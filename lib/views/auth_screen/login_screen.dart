@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 import 'package:shopguru/consts/consts.dart';
 import 'package:shopguru/consts/lists.dart';
 import 'package:shopguru/views/auth_screen/signup_screen.dart';
-import 'package:shopguru/views/home_screen/home_screen.dart';
+import 'package:shopguru/views/home_screen/home.dart';
 import 'package:shopguru/widgets_common/applogo_widget.dart';
 import 'package:shopguru/widgets_common/bg_widget.dart';
 import 'package:shopguru/widgets_common/custom_button.dart';
@@ -50,7 +50,7 @@ class LoginScreen extends StatelessWidget {
                         textColor: whiteColor,
                         title: login,
                         onPress: () {
-                          Get.to(() => HomeScreen());
+                          Get.to(() => Home());
                         }).box.width(context.screenWidth - 50).make(),
                     20.heightBox,
                     createNewAccount.text.color(fontGrey).make(),
