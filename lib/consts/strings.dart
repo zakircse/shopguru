@@ -37,3 +37,31 @@ const searchAnything = "Search anything...",
     boysGlasses = "Boys Glasses",
     tShirts = "T-Shirts",
     girlsDresses = "Girls Dresses";
+//Featured Products strings
+const ip14 = "iPhone 14 White 8/256",
+    ip13 = "iPhone 13 Green 8/256",
+    ip12 = "iPhone 12 Black 8/256";
+const p1 = "\$800", p2 = "\$1000", p3 = "\$1100";
+//All products string
+const hp = "HP Spectre 8/256",
+    Maybline = "Maybline Newyork Lipstick",
+    mac = "Macbook Air 2015 8/256",
+    sandal = "Women Brown Sandal",
+    ladiesBag = "Ladies Leather Bag",
+    boot = "Football Boot Red";
+const price1 = "\$400",
+    price2 = "\$100",
+    price3 = "\$800",
+    price4 = "\$200",
+    price5 = "\$500",
+    price6 = "\$50";
+//Category string
+const womenFashion = "Women Fashion",
+    menClothingFashion = "Men Clothing & Fashion",
+    compAccess = "Computer & Accessories",
+    automobile = "Automobile",
+    kidToys = "Kids & Toys",
+    sports = "Sports",
+    cosmetics = "Cosmetics",
+    bagsShoes = "Bags & Shoes",
+    furniture = "Furniture";

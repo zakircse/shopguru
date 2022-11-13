@@ -164,18 +164,18 @@ class HomeScreen extends StatelessWidget {
                                             CrossAxisAlignment.start,
                                         children: [
                                           Image.asset(
-                                            imgP1,
+                                            featuredProductImages[index],
                                             width: 150,
                                             fit: BoxFit.fill,
                                           ),
                                           10.heightBox,
-                                          "HP Probook 450 G1 8/256"
+                                          featuuredProductTitles[index]
                                               .text
                                               .fontFamily(semibold)
                                               .color(darkFontGrey)
                                               .make(),
                                           10.heightBox,
-                                          "\$400"
+                                          featuredProductPrices[index]
                                               .text
                                               .fontFamily(bold)
                                               .color(redColor)
@@ -239,19 +239,19 @@ class HomeScreen extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Image.asset(
-                                imgP1,
+                                allProductImages[index],
                                 height: 200,
                                 width: 200,
                                 fit: BoxFit.cover,
                               ),
                               Spacer(),
-                              "HP Probook 450 G1 8/256"
+                              allProductTitles[index]
                                   .text
                                   .fontFamily(semibold)
                                   .color(darkFontGrey)
                                   .make(),
                               10.heightBox,
-                              "\$400"
+                              allProductPrices[index]
                                   .text
                                   .fontFamily(bold)
                                   .color(redColor)
