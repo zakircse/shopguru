@@ -65,3 +65,10 @@ const womenFashion = "Women Fashion",
     cosmetics = "Cosmetics",
     bagsShoes = "Bags & Shoes",
     furniture = "Furniture";
+//Product details strings
+const video = "Video",
+    review = "Reviews",
+    sellerPolicy = "Seller Policy",
+    returnPolicy = "Return Policy",
+    supportPolicy = "Support Policy",
+    productULike = "Product you may also like";
