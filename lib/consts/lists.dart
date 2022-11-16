@@ -49,3 +49,19 @@ const productDetailButtonList = [
   returnPolicy,
   supportPolicy
 ];
+const profileButtonsList = [
+  wallet,
+  orders,
+  wishlist,
+  points,
+  returnRequest,
+  messages
+];
+const profileButtonsIcon = [
+  icWallet,
+  icOrder,
+  icHeart,
+  icPoints,
+  icRefund,
+  icMessages
+];

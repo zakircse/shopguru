@@ -72,3 +72,16 @@ const video = "Video",
     returnPolicy = "Return Policy",
     supportPolicy = "Support Policy",
     productULike = "Product you may also like";
+//Profile screen strings
+const userName = "User Name",
+    userMail = "user@mail.com",
+    logout = "Log out",
+    yourCart = "Cart",
+    YourWishlist = "Wishlist",
+    yourOrder = "Order",
+    wallet = "My Wallet",
+    wishlist = "My Wishlist",
+    orders = "My Orders",
+    points = "Earned Ponts",
+    returnRequest = "Returned Requests",
+    messages = "Messages";
