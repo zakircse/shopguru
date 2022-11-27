@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "913162258613",
+    "project_id": "shopguru-ccfa5",
+    "storage_bucket": "shopguru-ccfa5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913162258613:android:b1c7bcc4b68b41c1d716fc",
+        "android_client_info": {
+          "package_name": "com.example.shopguru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913162258613-rnq5geuq75atfa4trfhfmnmjomh8pnde.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shopguru",
+            "certificate_hash": "53128d52bb2cb7c2cd5f4acf717f9c2317395888"
+          }
+        },
+        {
+          "client_id": "913162258613-tc5ns6p9eq0d5f0nq9493cdk9dfudfu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqOOt1aOo7p_QMK3qOZHTmEqnJYsSMIis"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913162258613-tc5ns6p9eq0d5f0nq9493cdk9dfudfu7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
