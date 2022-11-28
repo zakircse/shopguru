@@ -1,7 +1,10 @@
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:get/get.dart';
 import 'package:shopguru/consts/consts.dart';
 import 'package:shopguru/consts/lists.dart';
+import 'package:shopguru/controllers/auth_controller.dart';
+import 'package:shopguru/views/auth_screen/login_screen.dart';
 import 'package:shopguru/views/profile_screen/components/details_cart.dart';
 import 'package:shopguru/widgets_common/bg_widget.dart';
 
@@ -53,7 +56,10 @@ class ProfileScreen extends StatelessWidget {
                         color: whiteColor,
                       ),
                     ),
-                    onPressed: () {},
+                    onPressed: () async {
+                      await Get.put(AuthController()).signoutMethod(context);
+                      Get.offAll(() => LoginScreen());
+                    },
                     child: logout.text.fontFamily(semibold).white.make(),
                   )
                 ],
